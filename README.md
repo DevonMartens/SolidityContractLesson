@@ -22,23 +22,23 @@ In the lesson folder there is a guide to writing in solidity which talks about s
 
 1.	Why blockchain developers are so valuable
 2.	Ethereum blockchain fundamentals
--   	How the Network works
--   	Mining and what it is
--   	Gas
--   	Ether
+   	How the Network works
+ 	Mining and what it is
+	Gas
+    Ether
 3.	Smart Contracts and how they work!
 4.	Solidity fundamentals including:
--   	Declare the version of Solidity for the compiler to use with pragma.
--   	Create a contract.
--   	Events (declare and emit)
--   	Functions
--   	Variables
--   	Returns
--   	If/else statements
--   	For loops
--   	Mapping
+  	Declare the version of Solidity for the compiler to use with pragma.
+   	Create a contract.
+   	Events (declare and emit)
+   	Functions
+   	Variables
+   	Returns
+   	If/else statements
+   	For loops
+   	Mapping
 5.	The remix IDE
--   	How to write/compile a contract on remix
+   	How to write/compile a contract on remix
 
 # The next lesson will be about:
 In our next lesson we will learn how to deploy contracts and create and use real addresses for contracts on the Ethereum network.
