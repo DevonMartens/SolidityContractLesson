@@ -1,15 +1,21 @@
 // add pragma to specify Solidity version
- 
-//TO DO: Name the contract it begins here
- 
+pragma solidity ^0.8.1;
+//=Name the contract it begins here
+contract StockExchange {
 /* the asset it is safe to say that we will need a quantity/price and address to be sent and
-an identifier (struct)*/
- 
-  	// The transaction structure begins here
+an identifier (struct)*/  
+    struct Share {
+        address creator;
+        bytes6 id;  // 6 bytes string
+        int price;
+        int quantity;
+    }
+    // The transaction struct begins here
   	/* a transaction needs a price/quantity also, we should track when it occurred, if it was successful
   	and the buyer and seller*/
    
-	// let's use int or numbers to count our transactions and assets (create variables)
+	
+    // let's use int or numbers to count our transactions and assets (create variables)
   
 	// mapping for each struct so we can access our transaction and asset
  
@@ -103,3 +109,24 @@ bool */
     	//return true
     
  
+     // Get transaction by index
+    function getTransactionByIndex(int i) public view
+        returns (bytes6 buyer, bytes6 seller, int quantity, int price, uint256 timestamp, int8 state ) {
+       if  (i >= 1 && i <= transaction_count)
+           return (transactions[i].source, transactions[i].seller,
+            	 transactions[i].quantity, transactions[i].price, transactions[i].timestamp, transactions[i].state);
+           else
+        	return ("DEVONM", "DEVONM",-1,-1, 0, 2);
+	}   
+    // Get the next transaction index involving an share
+    function getNextTransactionIdInvolvingShare(bytes6 id, int start) public view  returns (int) {
+    	if (start < 1 || start > transaction_count)
+        	    return -1;
+           
+    	for (int i = start; i <= transaction_count; i++) {
+        	    if (compareString l(transactions[i].source, id) == true || compareString(transactions[i].sller, id))
+       	         return i;
+    	}
+    	return -1;
+	}
+}
