@@ -1,6 +1,6 @@
 # Solidity Contract Lesson
 
-![Etherum](https://github.com/DevonMartens/SolidityContractLesson/blob/master/Photo/etherum.jpg?raw=true)
+![Etherum](https://github.com/DevonMartens/SolidityContractLesson/blob/main/Photo/etherum.jpg?raw=true)
 
 This a lesson on writing a smart contract in Solidity. In order to understand smart contracts, you first need to know what the Ethereum blockchain is and how it works. It does not have a centralized source like a cloud platform such as Google Cloud or Amazon Web Services would. Developers run Ethereum on their machines and are paid in cryptocurrencies called ether. A cryptocurrency is essentially a digital asset. The ledger that tracks these assets is the Ethereum blockchain (there are other types of blockchain that also serve as ledgers for cryptocurrencies). The Ethereum blockchain is the database that tracks what is owed, stored, and runs smart contracts.
 
@@ -8,7 +8,7 @@ Developers who run the Ethereum blockchain on their machine for ether are called
 
 A contract that runs on the Ethereum blockchain automatically executes when all the conditions are met. Since, digital assets can be transfer and contracts can be written this is valueable because it eliminates the need for a lawyer to write a contract and a bank to transfer money. 
 
-![Etherum](https://github.com/DevonMartens/SolidityContractLesson/blob/master/Photo/Explained.jpg?raw=true)
+![Etherum](https://github.com/DevonMartens/SolidityContractLesson/blob/main/Photo/Explained.png?raw=true)
 
 # This Lesson is on Writing Contracts in Solidity
 
