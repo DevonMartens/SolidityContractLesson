@@ -8,7 +8,7 @@ Developers who run the Ethereum blockchain on their machine for ether are called
 
 A contract that runs on the Ethereum blockchain automatically executes when all the conditions are met. Since, digital assets can be transfer and contracts can be written this is valueable because it eliminates the need for a lawyer to write a contract and a bank to transfer money. 
 
-![Etherum](https://github.com/DevonMartens/SolidityContractLesson/blob/main/Photo/Explained.png?raw=true)
+![Etherum](https://101blockchains.com/wp-content/uploads/2018/07/The_Future_Of_Smart_Contracts.jpg)
 
 # This Lesson is on Writing Contracts in Solidity
 
