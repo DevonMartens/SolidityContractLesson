@@ -30,11 +30,11 @@ The starter code in the starter_code folder can be downloaded or copied. Each po
 
 
 # What's in the repository 
-In the Solution Folder there is a written smart contract and a step by step guid to writing it and it is doing. 
+In the Solution Folder there is a written smart contract/ 
 
 If you want to try it on your own first there is a starter code file and instructions in the starter code on what to do. 
 
-In the lesson folder there is a guide to writing in solidity which talks about syntax, the Ethereum blockchain is better explained there as well, and the solution at the end of the lesson is explained.
+In the lesson folder there is a guide to writing in solidity which talks about syntax, the Ethereum blockchain is better explained there as well, and the solution at the end of the lesson is explained step by step.
 
 # Key take aways from this Lesson:
 
