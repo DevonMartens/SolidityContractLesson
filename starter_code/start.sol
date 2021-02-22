@@ -4,16 +4,18 @@ pragma solidity ^0.8.1;
 contract StockExchange {
 /* the share it is safe to say that we will need a quantity/price and address to be sent and
 an identifier (struct)*/  
-    struct Share {
-        address creator;
-        bytes6 id;  // 6 bytes string
-        int price;
-        int quantity;
-    }
-    // Ton DO: create struct for transaction struct begins here
+   
+
+    // the transaction struct
   	/* a transaction needs a price/quantity also, we should track when it occurred, if it was successful
   	and the buyer and seller*/
-   
+    struct Transaction {
+        bytes6 buyer; // 6 bytes string
+        bytes6 seller; // 6 bytes string
+        int quantity;
+        int price;
+        uint256 timestamp;
+        int8 state; // 0:PENDING / 1:VALIDATED / 2:REJECTED
 	
     // let's use int or numbers to count our transactions and shares (create variables)
   
