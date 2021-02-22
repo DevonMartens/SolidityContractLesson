@@ -10,7 +10,23 @@ A contract that runs on the Ethereum blockchain automatically executes when all 
 
 ![Etherum](https://101blockchains.com/wp-content/uploads/2018/07/The_Future_Of_Smart_Contracts.jpg)
 
-# This Lesson is on Writing Contracts in Solidity
+# Challenge Instructions
+
+You are a developer, creating a contract that is monitoring stock exchanges for a corporate client, your code will need the following:
+ 
+•	A share to be exchanged.
+•	A transaction to occur.
+•	A count for each transaction and assets. Don’t lose track of money here!  
+•	Track each new stock or share of stock added and update the blockchain network accordingly each time a transaction happens, a new type stock is added, or the quantity of the stock shares and price change. Remember the events and emit.  	
+
+•	Your boss asked that this contract ensures that a transaction won’t occur if there are not enough shares of the requested stock in the network. She also does not want to lose business if the transaction is able to partially execute.
+
+ Logistics:
+•	We will need to reference list of list assets and transactions throughout this process.
+•	A way to check for the correct stock in our program (something to reference the our shares id). A comparing function!
+•	A function to change the count of the transaction and assets.
+ 
+The starter code in the starter_code folder can be downloaded or copied. Each portion of the activity is broken down into parts(i.e. functions, structs, ect). There are more comments early on in the code than later. This is to avoid repetition. These comments are hints, and there are more hints in each step. Good luck! 
 
 
 # What's in the repository 

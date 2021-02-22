@@ -1,8 +1,8 @@
 // add pragma to specify Solidity version
 pragma solidity ^0.8.1;
-//=Name the contract it begins here
+//Name the contract it begins here
 contract StockExchange {
-/* the asset it is safe to say that we will need a quantity/price and address to be sent and
+/* the share it is safe to say that we will need a quantity/price and address to be sent and
 an identifier (struct)*/  
     struct Share {
         address creator;
@@ -10,14 +10,14 @@ an identifier (struct)*/
         int price;
         int quantity;
     }
-    // The transaction struct begins here
+    // Ton DO: create struct for transaction struct begins here
   	/* a transaction needs a price/quantity also, we should track when it occurred, if it was successful
   	and the buyer and seller*/
    
 	
-    // let's use int or numbers to count our transactions and assets (create variables)
+    // let's use int or numbers to count our transactions and shares (create variables)
   
-	// mapping for each struct so we can access our transaction and asset
+	// mapping for each struct so we can access our transaction and shares
  
 //TO DO: write your first function
  
@@ -91,13 +91,13 @@ bool */
     
     	//add a new transaction to the transaction count    
          
-    	//if statement emits if there are enough stock and update the assets accordingly
+    	//if statement emits if there are enough stock and update the shares accordingly
             	// validate transaction
             	//set a new quantity
              
             	//tell the count this worked
                
-            	//update logs with transaction and asset information
+            	//update logs with transaction and share information
               
         	// validate partial transaction  where only some of the stocks wanted were sold- still a transaction and the remainder is rejected
            
