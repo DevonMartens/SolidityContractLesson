@@ -8,8 +8,6 @@ Developers who run the Ethereum blockchain on their machine for ether are called
 
 A contract that runs on the Ethereum blockchain automatically executes when all the conditions are met. Since, digital assets can be transfer and contracts can be written this is valueable because it eliminates the need for a lawyer to write a contract and a bank to transfer money. 
 
-![Etherum](https://101blockchains.com/wp-content/uploads/2018/07/The_Future_Of_Smart_Contracts.jpg)
-
 # Challenge Instructions
 
 You are a developer, creating a contract that is monitoring stock exchanges for a corporate client, your code will need the following:
@@ -30,7 +28,7 @@ The starter code in the starter_code folder can be downloaded or copied. Each po
 
 
 # What's in the repository 
-In the Solution Folder there is a written smart contract/ 
+In the Solution Folder there is a written smart contract.
 
 If you want to try it on your own first there is a starter code file and instructions in the starter code on what to do. 
 
@@ -57,7 +55,7 @@ In the lesson folder there is a guide to writing in solidity which talks about s
    	Mapping
 5.	The remix IDE
    	How to write/compile a contract on remix
-
+![Etherum](https://101blockchains.com/wp-content/uploads/2018/07/The_Future_Of_Smart_Contracts.jpg)
 # The next lesson will be about:
 In our next lesson we will learn how to deploy contracts and create and use real addresses for contracts on the Ethereum network.
 
