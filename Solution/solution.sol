@@ -150,7 +150,7 @@ contract StockExchange {
         	    return -1;
            
     	for (int i = start; i <= transaction_count; i++) {
-        	    if (compareString(transactions[i].buyer, id) == true || compareString(transactions[i].sller, id))
+        	    if (compareStrings(transactions[i].buyer, id) == true || compareStrings(transactions[i].seller, id))
        	         return i;
     	}
     	return -1;

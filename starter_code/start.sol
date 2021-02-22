@@ -109,11 +109,11 @@ bool */
     	//return true
     
  
-     // Get transaction by index
+    // Get transaction by index
     function getTransactionByIndex(int i) public view
         returns (bytes6 buyer, bytes6 seller, int quantity, int price, uint256 timestamp, int8 state ) {
        if  (i >= 1 && i <= transaction_count)
-           return (transactions[i].source, transactions[i].seller,
+           return (transactions[i].buyer, transactions[i].seller,
             	 transactions[i].quantity, transactions[i].price, transactions[i].timestamp, transactions[i].state);
            else
         	return ("DEVONM", "DEVONM",-1,-1, 0, 2);
@@ -124,7 +124,7 @@ bool */
         	    return -1;
            
     	for (int i = start; i <= transaction_count; i++) {
-        	    if (compareString l(transactions[i].source, id) == true || compareString(transactions[i].sller, id))
+        	    if (compareStrings(transactions[i].buyer, id) == true || compareStrings(transactions[i].seller, id))
        	         return i;
     	}
     	return -1;

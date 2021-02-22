@@ -12,6 +12,8 @@ A contract that runs on the Ethereum blockchain automatically executes when all 
 
 # This Lesson is on Writing Contracts in Solidity
 
+
+# What's in the repository 
 In the Solution Folder there is a written smart contract and a step by step guid to writing it and it is doing. 
 
 If you want to try it on your own first there is a starter code file and instructions in the starter code on what to do. 
